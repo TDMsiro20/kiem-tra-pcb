@@ -13,7 +13,7 @@ st.write("Sử dụng YOLOv8 để phát hiện vết xước, đoản mạch t�
 @st.cache_resource
 def load_model():
     # Đường dẫn trỏ tới file mô hình tốt nhất của YOLOv8n
-    return YOLO('runs/detect/yolov8n_pcb/weights/best.pt')
+   return YOLO('best.pt'
 
 model = load_model()
 
